@@ -1,0 +1,15 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 2s; /* move smoothly for 2sec */
+}
+
+img:hover {
+    /* transform: translateX(500px); /* move on the X axis to the right, 
+                                  negative values would move to the left; we can use translateY to move on
+                                  the Y axis */
+
+    transform: translate(-500px, 200px);
+}  /* translate combine X and Y, the first value is X, the second is Y)
